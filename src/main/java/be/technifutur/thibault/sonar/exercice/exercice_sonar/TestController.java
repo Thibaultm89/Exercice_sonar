@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 import javax.transaction.Transactional;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 
@@ -22,7 +25,14 @@ public class TestController {
         if (false){
             System.out.println("hello");
         }
+
+
+        List<String> List = new ArrayList<String>();
+        list.remove("Hello");
+
         return "ça marche !";
+
+
     }
 
 
