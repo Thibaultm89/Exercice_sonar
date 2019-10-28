@@ -28,7 +28,7 @@ public class TestController {
 
 
     @Transactional
-    public String intule(){
+    public String InUtule(){
         return " ";
     }
 }
