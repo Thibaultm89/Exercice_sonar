@@ -28,7 +28,7 @@ public class TestController {
 
 
         List<String> List = new ArrayList<String>();
-        list.remove("Hello");
+        List.remove("Hello");
 
         return "ça marche !";
 
