@@ -41,5 +41,9 @@ public class TestController {
     public String InUtule(){
         return " ";
     }
+
+    public Boolean AnePasFaire(){
+        return null;
+    }
 }
 
