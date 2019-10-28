@@ -10,4 +10,9 @@ class ExerciceSonarApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void testInutile() {
+		System.out.println("Hello");
+	}
+
 }

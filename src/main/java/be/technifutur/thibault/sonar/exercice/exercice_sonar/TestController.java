@@ -18,9 +18,15 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 public class TestController {
 
     @RequestMapping(method = GET)
-    public String tester() {
+    private String tester() {
+        if (false){
+            System.out.println("hello");
+        }
         return "ça marche !";
     }
+
+
+
     @Transactional
     public String intule(){
         return " ";
